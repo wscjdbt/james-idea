@@ -1,0 +1,17 @@
+;
+; Engine configuration file.
+; It's best edited using the editor UI and not directly.
+; The syntax here is slightly different from the engine's.
+
+config_version=5
+
+[application]
+
+config/name="buff-chase"
+config/description="2D pixel turn-based chase game — buff system (v1)"
+
+[autoload]
+
+[display]
+
+window/size/viewport=800x600

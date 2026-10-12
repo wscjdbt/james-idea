@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="BuffDef" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/buff_system/buff_def.gd" id="1_buff_def_script"]
+
+[resource]
+script = ExtResource("1_buff_def_script")
+id = "silence"
+stack_group_id = "SILENCE"
+stacking_mode = 0
+duration_turns = 2
+effect_type = 1
+mp_delta = 0
+restrict_flags = 4
