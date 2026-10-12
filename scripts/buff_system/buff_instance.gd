@@ -1,6 +1,6 @@
 class_name BuffInstance
 extends RefCounted
-# Runtime instance of a BuffDef on a Unit.
+# RefCounted: lifetime follows the owning Unit's buffs dict, no manual free needed.
 
 var def: BuffDef
 var remaining_turns: int
